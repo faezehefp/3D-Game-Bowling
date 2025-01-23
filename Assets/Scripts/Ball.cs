@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+    [SerializeField] private AudioSource ballSound;
     //برای نگهداری مرجع به کامپوننت ریجید بادی توپ
     [SerializeField] Rigidbody BallRigidBody;
 
@@ -23,6 +24,7 @@ public class Ball : MonoBehaviour
         {
             //نیرویی به سمت جلو به توپ اضافه می‌شود
             BallRigidBody.AddForce(Vector3.forward * Power);
+            ballSound.Play();
         }
     }
 }
