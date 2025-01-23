@@ -4,11 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 7767c2c7cb8d99e499b0f820b2c7fac6
+  productGUID: 59d65134c0801054b880981f40b79328
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 2
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -847,11 +847,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f40a9550-8b6a-4f78-b4aa-082f8c1d2a19
+  cloudProjectId: 53bd9a0d-195a-4ca8-9f0d-2cbe2030096c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Bowling
-  organizationId: faezeh-ehsanfar
+  organizationId: fatememoin853
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
