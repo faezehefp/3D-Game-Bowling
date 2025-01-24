@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameMenu : MonoBehaviour
 {
 
-    public GameObject LevelMenu;
+    [SerializeField] GameObject LevelMenu;
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -34,8 +34,7 @@ public class GameMenu : MonoBehaviour
     {
         //لود کردن سین منوی اصلی
         SceneManager.LoadScene("MainMenu");
-       
-    }
+        }
 
     //تابع خروج از بازی
     public void QuitGame()

@@ -168,6 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallObject: {fileID: 1158338532}
   ScoreUI: {fileID: 1516830584}
+  highScore: {fileID: 11400000, guid: a9b67c0f1a6019748b2b8ca4b99e5b11, type: 2}
+  menu: {fileID: 2053149573}
 --- !u!1 &319016472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,7 +1685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballSound: {fileID: 1158338539}
   BallRigidBody: {fileID: 1158338534}
-  Power: 2750
+  Power: 2725
 --- !u!33 &1158338537
 MeshFilter:
   m_ObjectHideFlags: 0
