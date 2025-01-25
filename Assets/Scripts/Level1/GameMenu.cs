@@ -29,12 +29,21 @@ public class GameMenu : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+        //تابع دکمه مرحله بعد
+    public void GoToNextScene()
+    {
+        //لود صحنه 2
+        SceneManager.LoadScene("Level2");
+    }
+
+
     //تابع دکمه رفتن به منوی اصلی
     public void GoToMainMenu()
     {
         //لود کردن سین منوی اصلی
         SceneManager.LoadScene("MainMenu");
-        }
+    }
+    
 
     //تابع خروج از بازی
     public void QuitGame()
@@ -42,4 +51,5 @@ public class GameMenu : MonoBehaviour
         //بستن برنامه
         Application.Quit();
     }
+    
 }

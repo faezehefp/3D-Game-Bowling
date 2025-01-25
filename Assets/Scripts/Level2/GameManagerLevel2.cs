@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameManagerLevel2 : MonoBehaviour
 {
-   [SerializeField] GameObject BallObject;
+    [SerializeField] GameObject BallObject;
     int Score = 0;
     int TurnCounter = 0;
     GameObject[] Pins;
@@ -17,7 +16,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         TurnCounter=0;
-        Pins = GameObject.FindGameObjectsWithTag("Pin");
+        Pins = GameObject.FindGameObjectsWithTag("Pin2");
         Positions = new Vector3[Pins.Length];
 
         for(int i = 0; i < Pins.Length; i++)

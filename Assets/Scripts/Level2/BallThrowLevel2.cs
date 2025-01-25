@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallThrow : MonoBehaviour
+public class BallThrowLevel2 : MonoBehaviour
 {
-    //؟؟؟
+   //؟؟؟
     [SerializeField] private AudioSource ballSound;
     //برای نگهداری کامپوننت ریجید بادی توپ
     [SerializeField] Rigidbody BallRigidBody;
